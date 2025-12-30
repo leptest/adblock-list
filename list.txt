@@ -4,3 +4,5 @@
 ! Homepage: https://github.com/leptest/adblock-list
 
 ||pagead2.googlesyndication.com^
+||pagead2.googlesyndication.com
+pagead2.googlesyndication.com
