@@ -3,4 +3,78 @@
 ! Description: List to tidy up the leftovers on https://paileactivist.github.io/toolz/adblock.html and https://superadblocktest.com/
 ! Homepage: https://github.com/leptest/adblock-list
 
+# Google
 pagead2.googlesyndication.com$important
+ads.google.com$important
+doubleclick.net$important
+ad.doubleclick.net$important
+static.doubleclick.net$important
+m.doubleclick.net$important
+mediavisor.doubleclick.net$important
+
+# Fastclick
+fastclick.com$important
+media.fastclick.net$important
+
+# Amazon
+analyticsengine.s3.amazonaws.com$important
+advice-ads.s3.amazonaws.com$important
+affiliationjs.s3.amazonaws.com$important
+advertising-api-eu.amazon.com$important
+amazonaax.com$important
+amazonclix.com$important
+
+# Hotjar
+api-hotjar.com$important
+hotjar-analytics.com$important
+
+# Facebook
+ads.facebook.com$important
+an.facebook.com$important
+
+# Twitter
+ads-api.twitter.com$important
+advertising.twitter.com$important
+
+# Pinterest
+ads.pinterest.com$important
+ads-dev.pinterest.com$important
+widgets.pinterest.com$important
+
+# Reddit
+ads.reddit.com$important
+d.reddit.com$important
+
+# Youtube
+ads.youtube.com$important
+
+# Tiktok
+ads.tiktok.com$important
+ads-sg.tiktok.com$important
+
+# Yahoo
+global.adserver.yahoo.com$important
+ads.yap.yahoo.com$important
+
+# Xiaomi
+data.mistat.xiaomi.com$important
+data.mistat.intl.xiaomi.com$important
+data.mistat.india.xiaomi.com$important
+data.mistat.rus.xiaomi.com$important
+sa.api.intl.miui.com$important
+tracking.intl.miui.com$important
+tracking.india.miui.com$important
+tracking.rus.miui.com$important
+
+# Oneplus
+analytics.oneplus.cn$important
+click.oneplus.com$important
+
+# Samsung
+ad.samsungadhub.com$important
+samsungadhub.com$important
+bigdata.ssp.samsung.com$important
+
+# Apple
+metrics.apple.com$important
+securemetrics.apple.com$important
