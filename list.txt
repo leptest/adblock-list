@@ -4,77 +4,77 @@
 ! Homepage: https://github.com/leptest/adblock-list
 
 # Google
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 ads.google.com
-0.0.0.0 doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 mediavisor.doubleclick.net
+||pagead2.googlesyndication.com^$important
+||ads.google.com^$important
+||doubleclick.net^$important
+||ad.doubleclick.net^$important
+||static.doubleclick.net^$important
+||m.doubleclick.net^$important
+||mediavisor.doubleclick.net^$important
 
 # Fastclick
-0.0.0.0 fastclick.com
-0.0.0.0 media.fastclick.net
+||fastclick.com^$important
+||media.fastclick.net^$important
 
 # Amazon
-0.0.0.0 analyticsengine.s3.amazonaws.com
-0.0.0.0 advice-ads.s3.amazonaws.com
-0.0.0.0 affiliationjs.s3.amazonaws.com
-0.0.0.0 advertising-api-eu.amazon.com
-0.0.0.0 amazonaax.com
-0.0.0.0 amazonclix.com
+||analyticsengine.s3.amazonaws.com^$important
+||advice-ads.s3.amazonaws.com^$important
+||affiliationjs.s3.amazonaws.com^$important
+||advertising-api-eu.amazon.com^$important
+||amazonaax.com^$important
+||amazonclix.com^$important
 
 # Hotjar
-0.0.0.0 api-hotjar.com
-0.0.0.0 hotjar-analytics.com
+||api-hotjar.com^$important
+||hotjar-analytics.com^$important
 
 # Facebook
-0.0.0.0 ads.facebook.com
-0.0.0.0 an.facebook.com
+||ads.facebook.com^$important
+||an.facebook.com^$important
 
 # Twitter
-0.0.0.0 ads-api.twitter.com
-0.0.0.0 advertising.twitter.com
+||ads-api.twitter.com^$important
+||advertising.twitter.com^$important
 
 # Pinterest
-0.0.0.0 ads.pinterest.com
-0.0.0.0 ads-dev.pinterest.com
-0.0.0.0 widgets.pinterest.com
+||ads.pinterest.com^$important
+||ads-dev.pinterest.com^$important
+||widgets.pinterest.com^$important
 
 # Reddit
-0.0.0.0 ads.reddit.com
-0.0.0.0 d.reddit.com
+||ads.reddit.com^$important
+||d.reddit.com^$important
 
 # Youtube
-0.0.0.0 ads.youtube.com
+||ads.youtube.com^$important
 
 # Tiktok
-0.0.0.0 ads.tiktok.com
-0.0.0.0 ads-sg.tiktok.com
+||ads.tiktok.com^$important
+||ads-sg.tiktok.com^$important
 
 # Yahoo
-0.0.0.0 global.adserver.yahoo.com
-0.0.0.0 ads.yap.yahoo.com
+||global.adserver.yahoo.com^$important
+||ads.yap.yahoo.com^$important
 
 # Xiaomi
-0.0.0.0 data.mistat.xiaomi.com
-0.0.0.0 data.mistat.intl.xiaomi.com
-0.0.0.0 data.mistat.india.xiaomi.com
-0.0.0.0 data.mistat.rus.xiaomi.com
-0.0.0.0 sa.api.intl.miui.com
-0.0.0.0 tracking.intl.miui.com
-0.0.0.0 tracking.india.miui.com
-0.0.0.0 tracking.rus.miui.com
+||data.mistat.xiaomi.com^$important
+||data.mistat.intl.xiaomi.com^$important
+||data.mistat.india.xiaomi.com^$important
+||data.mistat.rus.xiaomi.com^$important
+||sa.api.intl.miui.com^$important
+||tracking.intl.miui.com^$important
+||tracking.india.miui.com^$important
+||tracking.rus.miui.com^$important
 
 # Oneplus
-0.0.0.0 analytics.oneplus.cn
-0.0.0.0 click.oneplus.com
+||analytics.oneplus.cn^$important
+||click.oneplus.com^$important
 
 # Samsung
-0.0.0.0 ad.samsungadhub.com
-0.0.0.0 samsungadhub.com
-0.0.0.0 bigdata.ssp.samsung.com
+||ad.samsungadhub.com^$important
+||samsungadhub.com^$important
+||bigdata.ssp.samsung.com^$important
 
 # Apple
-0.0.0.0 metrics.apple.com
-0.0.0.0 securemetrics.apple.com
+||metrics.apple.com^$important
+||securemetrics.apple.com^$important
