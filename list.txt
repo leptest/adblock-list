@@ -3,6 +3,6 @@
 ! Description: List to tidy up the leftovers on https://paileactivist.github.io/toolz/adblock.html and https://superadblocktest.com/
 ! Homepage: https://github.com/leptest/adblock-list
 
-||pagead2.googlesyndication.com^
-||pagead2.googlesyndication.com
-pagead2.googlesyndication.com
+||pagead2.googlesyndication.com^$important
+||pagead2.googlesyndication.com$important
+pagead2.googlesyndication.com$important
