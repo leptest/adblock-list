@@ -97,3 +97,6 @@ moxfield.com##.EAGT5xydjtoX4huqPqbv.zHwNSdceCL_i1SUmbRkU
 
 # Crypto
 ||greatis.com^$important
+
+# JW Player Ads
+||ssl.p.jwpcdn.com^$important
