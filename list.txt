@@ -94,3 +94,6 @@ moxfield.com##.EAGT5xydjtoX4huqPqbv.zHwNSdceCL_i1SUmbRkU
 
 # MGID
 ||servicer.mgid.com^$important
+
+# Crypto
+||greatis.com^$important
