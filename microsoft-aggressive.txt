@@ -1,0 +1,68 @@
+[Adblock Plus]
+! Title: Leptest's List - Microsoft Telemetry (Aggressive add-on)
+! Description: Opt-in extras on top of microsoft.txt. Each section names the feature it breaks: Widgets, Edge news feed, location, Timeline, experimentation, Application Insights, Copilot.
+! Homepage: https://github.com/leptest/adblock-list
+! Expires: 4 days
+! Syntax: ||host^ (blocks host and all subdomains). Works in Pi-hole v6, AdGuard Home, uBlock Origin, Adblock Plus.
+! Sources: Microsoft Learn endpoint docs (Windows 11, Edge, M365, Azure Monitor), HaGeZi native.winoffice, crazy-max/WindowsSpyBlocker.
+
+! ----- Widgets / News and interests / Edge new-tab feed (Widgets board and Edge NTP news go blank) -----
+||api.msn.com^
+||assets.msn.com^
+||ntp.msn.com^
+||staticview.msn.com^
+||widgetservice.azurefd.net^
+||widgetcdn.azureedge.net^
+||img-s-msn-com.akamaized.net^
+
+! ----- Live Tiles / Start and Search 'rings' (tips, greetings, Search highlights stop updating) -----
+||a-ring.msedge.net^
+||a-ring-fallback.msedge.net^
+||b-ring.msedge.net^
+||b-ring-fallback.msedge.net^
+||c-ring.msedge.net^
+||c-ring-fallback.msedge.net^
+||dual-s-ring.msedge.net^
+||fp.msedge.net^
+||k-ring.msedge.net^
+||k-ring-fallback.msedge.net^
+||ln-ring.msedge.net^
+||ln-ring-fallback.msedge.net^
+||s-ring.msedge.net^
+||s-ring-fallback.msedge.net^
+||t-ring.msedge.net^
+||t-ring-fallback.msedge.net^
+||t-ring-fdv2.msedge.net^
+||t-ring-s.msedge.net^
+||win10-trt.msedge.net^
+
+! ----- Windows location service (apps can no longer get Wi-Fi based location; Find My Device degrades) -----
+||location.live.net^
+||location.microsoft.com^
+||inference-location-livenet.trafficmanager.net^
+||collection-location-livenet.trafficmanager.net^
+||agps-location-livenet.trafficmanager.net^
+
+! ----- Activity history / Timeline / cross-device resume -----
+||activity.windows.com^
+
+! ----- Experimentation and feature-flight services (Edge, Office, Teams, VS Code; some features may not light up) -----
+||config.edge.skype.com^
+||ecs.office.com^
+||default.exp-tas.com^
+
+! ----- Office enterprise telemetry zone (Microsoft lists it as required for M365 tenants; fine at home) -----
+||aria.microsoft.com^
+
+! ----- Azure Application Insights / App Center ingestion (.NET CLI, PowerShell, VS Code telemetry; also third-party apps and your OWN Azure apps) -----
+||dc.services.visualstudio.com^
+||applicationinsights.azure.com^
+||applicationinsights.microsoft.com^
+||js.monitor.azure.com^
+||js.cdn.applicationinsights.io^
+||in.appcenter.ms^
+||ingest.appcenter.ms^
+
+! ----- Copilot (removes Copilot entirely: the Windows Copilot app, copilot.microsoft.com and Copilot in Edge) -----
+||copilot.microsoft.com^
+||edgeservices.bing.com^

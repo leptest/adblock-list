@@ -1,0 +1,63 @@
+[Adblock Plus]
+! Title: Leptest's List - Microsoft Allowlist
+! Description: Microsoft hosts that must keep resolving. Add in Pi-hole as an ALLOW list so broader blocklists (HaGeZi, WindowsSpyBlocker, OISD...) cannot break Windows Update, activation, sign-in, NCSI or Defender.
+! Homepage: https://github.com/leptest/adblock-list
+! Expires: 4 days
+! Syntax: ||host^ (blocks host and all subdomains). Works in Pi-hole v6, AdGuard Home, uBlock Origin, Adblock Plus.
+! Sources: Microsoft Learn endpoint docs (Windows 11, Edge, M365, Azure Monitor), HaGeZi native.winoffice, crazy-max/WindowsSpyBlocker.
+
+! ----- Sign-in / authentication -----
+@@||login.live.com^
+@@||login.microsoftonline.com^
+@@||login.microsoft.com^
+@@||login.windows.net^
+
+! ----- Certificates and revocation (blocking breaks HTTPS trust) -----
+@@||ctldl.windowsupdate.com^
+@@||crl.microsoft.com^
+
+! ----- Network Connectivity Status Indicator ("No internet" tray warning otherwise) -----
+@@||msftconnecttest.com^
+@@||msftncsi.com^
+
+! ----- Activation and licensing -----
+@@||licensing.mp.microsoft.com^
+@@||activation-v2.sls.microsoft.com^
+
+! ----- Windows Update, Delivery Optimization, Defender definitions -----
+@@||windowsupdate.com^
+@@||update.microsoft.com^
+@@||delivery.mp.microsoft.com^
+@@||prod.do.dsp.mp.microsoft.com^
+@@||tsfe.trafficshaping.dsp.mp.microsoft.com^
+@@||adl.windows.com^
+@@||definitionupdates.microsoft.com^
+
+! ----- Microsoft Store -----
+@@||displaycatalog.mp.microsoft.com^
+@@||storeedgefd.dsx.mp.microsoft.com^
+@@||storecatalogrevocation.storequality.microsoft.com^
+
+! ----- Push notifications (mail sync, settings sync, MDM) -----
+@@||wns.windows.com^
+
+! ----- Diagnostics settings endpoint (config only; Microsoft: "Don't block") -----
+@@||settings-win.data.microsoft.com^
+
+! ----- Defender cloud protection and SmartScreen -----
+@@||wdcp.microsoft.com^
+@@||wdcpalt.microsoft.com^
+@@||smartscreen-prod.microsoft.com^
+@@||checkappexec.microsoft.com^
+@@||ping-edge.smartscreen.microsoft.com^
+@@||data-edge.smartscreen.microsoft.com^
+@@||nav-edge.smartscreen.microsoft.com^
+
+! ----- Edge sync / Password Monitor / updates -----
+@@||edge.microsoft.com^
+@@||msedge.api.cdp.microsoft.com^
+
+! ----- Office licensing/config and OneDrive -----
+@@||officeclient.microsoft.com^
+@@||g.live.com^
+@@||oneclient.sfx.ms^

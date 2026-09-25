@@ -1,0 +1,38 @@
+[Adblock Plus]
+! Title: Leptest's List - Apple Telemetry
+! Description: iOS / iPadOS / macOS analytics, diagnostics and Search Ads attribution. Keeps activation, push, iCloud, App Store and software updates working.
+! Homepage: https://github.com/leptest/adblock-list
+! Expires: 4 days
+! Syntax: ||host^ (blocks host and all subdomains). Works in Pi-hole v6, AdGuard Home, uBlock Origin, Adblock Plus.
+! Sources: Apple support 101555, HaGeZi native.apple, AdGuard DNS filter, Leith 2021.
+! NOT blocked on purpose: xp.apple.com carries App Store analytics but also software-update support;
+! blocking it is reported to break OTA updates on current iOS/iPadOS and HomePod. Block it yourself if you
+! accept allowing it again whenever you update.
+
+! ----- Apple analytics and diagnostics (blocked by both HaGeZi Light/Normal and AdGuard DNS filter) -----
+||metrics.apple.com^
+||securemetrics.apple.com^
+||metrics.icloud.com^
+||metrics-config.icloud.com^
+||supportmetrics.apple.com^
+||securemvt.apple.com^
+||graffiti-tags.apple.com^
+||feedbackws.icloud.com^
+
+! ----- Apple app analytics events (News, Stocks, Books, Notes, Weather, Podcasts, TV) -----
+||news-events.apple.com^
+||news-app-events.apple.com^
+||news-sports-events.apple.com^
+||news-analytics-events.apple.com^
+||news-notification-events.apple.com^
+||stocks-analytics-events.apple.com^
+||books-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
+||podcasts-analytics-events.apple.com^
+||tv-analytics-events.apple.com^
+||analytics-events.apple.com^
+
+! ----- Apple Search Ads attribution -----
+||iadsdk.apple.com^
+||api-adservices.apple.com^
