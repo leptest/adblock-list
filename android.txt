@@ -1,0 +1,161 @@
+[Adblock Plus]
+! Title: Leptest's List - Android Telemetry
+! Description: Google ad/analytics hosts plus Samsung, Xiaomi, OPPO/Realme/OnePlus, Huawei/Honor and Vivo telemetry. Keeps Play Store, push notifications and Google sign-in working.
+! Homepage: https://github.com/leptest/adblock-list
+! Expires: 4 days
+! Syntax: ||host^ (blocks host and all subdomains). Works in Pi-hole v6, AdGuard Home, uBlock Origin, Adblock Plus.
+! Sources: Leith (TCD) 2021 and 2025, Google Android Enterprise network requirements, HaGeZi native.*, AdGuard Tracking Protection, GoodbyeAds.
+! NOT blocked on purpose: play.googleapis.com, android.clients.google.com and www.googleapis.com carry most
+! Google telemetry but also Play Store downloads and device check-in; blocking them breaks the Play Store.
+
+! ----- Google ads and analytics (safe for OS function; Google Play, push and sign-in are untouched) -----
+||app-measurement.com^
+||google-analytics.com^
+||googleadservices.com^
+||googlesyndication.com^
+||doubleclick.net^
+||adservice.google.com^
+||crashlyticsreports-pa.googleapis.com^
+||federatedml-pa.googleapis.com^
+
+! ----- Samsung device telemetry and ads -----
+||dc.dqa.samsung.com^
+||dls-ddc.dqa.samsung.com^
+||dls-udc.dqa.samsung.com^
+||dc.di.atlas.samsung.com^
+||ddf.di.atlas.samsung.com^
+||dc.di.runestone.samsung.com^
+||dls.di.runestone.samsung.com^
+||diagmon-policy.samsungdm.com^
+||diagmon-serviceapi.samsungdm.com^
+||report.gras.samsungdm.com^
+||us-report.gras.samsungdm.com^
+||analytics.bigdata.samsung.com^
+||bigdata.ssp.samsung.com^
+||metric.account-samsung.com^
+||nmetrics.samsung.com^
+||smetrics.samsung.com^
+||event-tracking.samsung.com^
+||analytics.mpay.samsung.com^
+||ureca.samsungapps.com^
+||sia.internet.apps.samsung.com^
+||devicelog.samsungcloudsolution.net^
+||osb.samsungqbe.com^
+||osb-krsvc.samsungqbe.com^
+||osb-ussvc.samsungqbe.com^
+||analytics.samsungknox.com^
+||insights.samsung.com^
+||samsungads.com^
+||samsungadhub.com^
+
+! ----- Xiaomi / MIUI / HyperOS analytics and ads (Mi Push left alone) -----
+||mistat.xiaomi.com^
+||mistat.intl.xiaomi.com^
+||mistat.india.xiaomi.com^
+||mistat.rus.xiaomi.com^
+||tracking.miui.com^
+||tracking.intl.miui.com^
+||tracking.eu.miui.com^
+||tracking.india.miui.com^
+||tracking.rus.miui.com^
+||api.collect.data.intl.miui.com^
+||data.sec.miui.com^
+||data.sec.intl.miui.com^
+||stat.miui.com^
+||stat.xiaomi.com^
+||mqs-log.miui.com^
+||migcreport.g.mi.com^
+||tracker.ai.xiaomi.com^
+||logs.n.xiaomi.com^
+||report.n.xiaomi.com^
+||log.pt.xiaomi.com^
+||in-miuilog.sms.intl.xiaomi.com^
+||secure.report.iss.xiaomi.com^
+||mlog.search.xiaomi.net^
+||analytics.ff.avast.sec.miui.com^
+||gstat.pandora.xiaomi.com^
+||stat.pandora.xiaomi.com^
+||ad.xiaomi.com^
+||ad.mi.com^
+||ad.miui.com^
+||ad.intl.xiaomi.com^
+||ad.eu.xiaomi.com^
+||ad.india.xiaomi.com^
+||ad.rus.xiaomi.com^
+||api.ads.xiaomi.com^
+||ad.cdn.pandora.xiaomi.com^
+
+! ----- OPPO / Realme / OnePlus / ColorOS / HeyTap telemetry and ads (push hosts left alone) -----
+||log-eap.coloros.com^
+||log-eap-in.coloros.com^
+||log-eap-sg.coloros.com^
+||moa-upload-online.coloros.com^
+||dragate.dc.oppomobile.com^
+||dragate-sg.dc.oppomobile.com^
+||dragate-br.dc.oppomobile.com^
+||dragate-cn.dc.heytapmobi.com^
+||dragate-in.dc.heytapmobi.com^
+||dragate-sg.dc.heytapmobi.com^
+||obus-cn.dc.heytapmobi.com^
+||dc.heytapmobile.com^
+||dc-stat-in.heytapmobile.com^
+||stat.browser.heytapmobi.com^
+||logforward.browser.heytapmobi.com^
+||report-eu.uc.heytapmobile.com^
+||report-in.uc.heytapmobile.com^
+||report-sg.uc.heytapmobile.com^
+||ads.heytapmobi.com^
+||ads.heytapmobile.com^
+||adx-ads-fr.heytapmobile.com^
+||adx-ads-ru.heytapmobile.com^
+||cldata-ads-fr.heytapmobile.com^
+||cldata-ads-ru.heytapmobile.com^
+||ads.oppomobile.com^
+||adsfs.oppomobile.com^
+||adsfs-sdkconfig.heytapimage.com^
+||click.oneplus.com^
+||click.oneplus.cn^
+||open.oneplus.net^
+||apaff.oneplus.com^
+||analytics.oneplus.cn^
+||oplus.umeng.com^
+||oplus.cnzz.com^
+||apioplus.cnzz.com^
+
+! ----- Huawei / Honor telemetry and ads (specific hosts only; hicloud.com itself runs AppGallery and push) -----
+||data.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||logbak.hicloud.com^
+||logservice-dra.platform.hicloud.com^
+||logservice-dre.platform.hicloud.com^
+||datacollector-dra.dt.dbankcloud.cn^
+||datacollector-dre.dt.dbankcloud.cn^
+||ubacollect-drcn.cloud.dbankcloud.cn^
+||logservice1.dbankcloud.com^
+||nebula-collector.huawei.com^
+||ads.cloud.huawei.com^
+||log-dra.platform.hihonorcloud.com^
+||log-drcn.platform.hihonorcloud.com^
+||log-dre.platform.hihonorcloud.com^
+||log-drru.platform.hihonorcloud.com^
+||tracking-data.platform.hihonorcloud.com^
+||pebed.dmevent.net^
+||apkrep.ff.avast.com^
+
+! ----- Vivo telemetry and ads (vpush left alone) -----
+||adlog.vivo.com.cn^
+||adsdk.vivo.com.cn^
+||adxlog-adnet.vivo.com.cn^
+||dsplog-adnet.vivo.com.cn^
+||tracking-adnet.vivo.com.cn^
+||adlog.vivo.com^
+||ads-api.vivo.com^
+||asia-adlog.vivoglobal.com^
+||in-adlog.vivoglobal.com^
+||asia-abeacdataonrt-stsdk.vivoglobal.com^
+||kz-cname-sin01-bigdata.vivoglobal.com^
+||tr-gdpr-vgc-datacenter.vivoglobal.com^
+
+! ----- Preinstalled third-party telemetry (SwiftKey) -----
+||telemetry.api.swiftkey.com^
