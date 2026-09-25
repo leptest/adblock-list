@@ -8,95 +8,95 @@ moxfield.com##.deck-dnd-wrapper > .zHwNSdceCL_i1SUmbRkU
 moxfield.com##.EAGT5xydjtoX4huqPqbv.zHwNSdceCL_i1SUmbRkU
 
 # Google
-||pagead2.googlesyndication.com^$important
-||ads.google.com^$important
-||doubleclick.net^$important
-||ad.doubleclick.net^$important
-||static.doubleclick.net^$important
-||m.doubleclick.net^$important
-||mediavisor.doubleclick.net^$important
+||pagead2.googlesyndication.com^
+||ads.google.com^
+||doubleclick.net^
+||ad.doubleclick.net^
+||static.doubleclick.net^
+||m.doubleclick.net^
+||mediavisor.doubleclick.net^
 
 # Fastclick
-||fastclick.com^$important
-||media.fastclick.net^$important
+||fastclick.com^
+||media.fastclick.net^
 
 # Amazon
-||analyticsengine.s3.amazonaws.com^$important
-||advice-ads.s3.amazonaws.com^$important
-||affiliationjs.s3.amazonaws.com^$important
-||advertising-api-eu.amazon.com^$important
-||amazonaax.com^$important
-||amazonclix.com^$important
+||analyticsengine.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+||affiliationjs.s3.amazonaws.com^
+||advertising-api-eu.amazon.com^
+||amazonaax.com^
+||amazonclix.com^
 
 # Hotjar
-||api-hotjar.com^$important
-||hotjar-analytics.com^$important
+||api-hotjar.com^
+||hotjar-analytics.com^
 
 # Facebook
-||ads.facebook.com^$important
-||an.facebook.com^$important
+||ads.facebook.com^
+||an.facebook.com^
 
 # Twitter
-||ads-api.twitter.com^$important
-||advertising.twitter.com^$important
+||ads-api.twitter.com^
+||advertising.twitter.com^
 
 # Pinterest
-||ads.pinterest.com^$important
-||ads-dev.pinterest.com^$important
-||widgets.pinterest.com^$important
+||ads.pinterest.com^
+||ads-dev.pinterest.com^
+||widgets.pinterest.com^
 
 # Reddit
-||ads.reddit.com^$important
-||d.reddit.com^$important
+||ads.reddit.com^
+||d.reddit.com^
 
 # Youtube
-||ads.youtube.com^$important
-||redirector.googlevideo.com^$important
-||youtubei.googleapis.com^$important
+||ads.youtube.com^
+||redirector.googlevideo.com^
+||youtubei.googleapis.com^
 
 # Tiktok
-||ads.tiktok.com^$important
-||ads-sg.tiktok.com^$important
+||ads.tiktok.com^
+||ads-sg.tiktok.com^
 
 # Yahoo
-||global.adserver.yahoo.com^$important
-||ads.yap.yahoo.com^$important
+||global.adserver.yahoo.com^
+||ads.yap.yahoo.com^
 
 # Xiaomi
-||data.mistat.xiaomi.com^$important
-||data.mistat.intl.xiaomi.com^$important
-||data.mistat.india.xiaomi.com^$important
-||data.mistat.rus.xiaomi.com^$important
-||sa.api.intl.miui.com^$important
-||tracking.intl.miui.com^$important
-||tracking.india.miui.com^$important
-||tracking.rus.miui.com^$important
+||data.mistat.xiaomi.com^
+||data.mistat.intl.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||sa.api.intl.miui.com^
+||tracking.intl.miui.com^
+||tracking.india.miui.com^
+||tracking.rus.miui.com^
 
 # Oneplus
-||analytics.oneplus.cn^$important
-||click.oneplus.com^$important
+||analytics.oneplus.cn^
+||click.oneplus.com^
 
 # Samsung
-||ad.samsungadhub.com^$important
-||samsungadhub.com^$important
-||bigdata.ssp.samsung.com^$important
+||ad.samsungadhub.com^
+||samsungadhub.com^
+||bigdata.ssp.samsung.com^
 
 # Apple
-||metrics.apple.com^$important
-||securemetrics.apple.com^$important
+||metrics.apple.com^
+||securemetrics.apple.com^
 
 # Microsoft
-||ib.adnxs.com^$important
-||secure.adnxs.com^$important
-||acdn.adnxs.com^$important
-||prebid.adnxs.com^$important
-||adnxs.com^$important
+||ib.adnxs.com^
+||secure.adnxs.com^
+||acdn.adnxs.com^
+||prebid.adnxs.com^
+||adnxs.com^
 
 # MGID
-||servicer.mgid.com^$important
+||servicer.mgid.com^
 
 # Crypto
-||greatis.com^$important
+||greatis.com^
 
 # JW Player Ads
-||ssl.p.jwpcdn.com^$important
+||ssl.p.jwpcdn.com^
