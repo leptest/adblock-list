@@ -13,7 +13,7 @@ Plus Microsoft, Apple and Android telemetry lists built for Pi-hole.
 | File | What it does | Add in Pi-hole as |
 |------|--------------|-------------------|
 | [`list.txt`](list.txt) | Ad networks, big-tech ads, vendor telemetry (see below) | Blocklist |
-| [`microsoft.txt`](microsoft.txt) | Windows / Office / Edge / Xbox / dev-tool telemetry, Bing & MSN ads, Clarity. Does **not** break Windows Update, activation, Store, sign-in, OneDrive, Outlook, Teams, Defender or SmartScreen | Blocklist |
+| [`microsoft.txt`](microsoft.txt) | Windows / Office / Edge / Xbox / dev-tool telemetry, Bing & MSN ads, Clarity. Does **not** break Windows Update, activation, Store, sign-in, OneDrive, Outlook, Teams, Defender or SmartScreen. Known side effects: Xbox Live achievements, the Visual Studio Installer download, and possibly Microsoft 365 "recently used files" / cloud save | Blocklist |
 | [`microsoft-aggressive.txt`](microsoft-aggressive.txt) | Opt-in extras. Each section names what it breaks: Widgets and the Edge news feed, location, Timeline, feature experiments, Application Insights, Copilot | Blocklist (optional) |
 | [`microsoft-allowlist.txt`](microsoft-allowlist.txt) | Microsoft hosts that must keep resolving, so other broad lists can't break updates, activation, sign-in, the "No internet" check or Defender | **Allowlist** |
 | [`apple.txt`](apple.txt) | iOS / iPadOS / macOS analytics, diagnostics and Search Ads attribution. Leaves `xp.apple.com` alone because blocking it breaks software updates | Blocklist |
@@ -53,6 +53,10 @@ python3 scripts/check_pihole.py *.txt
 - **Analytics:** Hotjar
 - **Site-specific:** Moxfield deck-page ads (browser only; Pi-hole can't do cosmetic rules)
 - **Misc:** Greatis (crypto-related)
+
+## Research
+
+The research behind these lists, including what breaks, settings beyond DNS, and router, iPad and Android notes, is in [`reports/`](reports/) and [`research_notes/`](research_notes/).
 
 ## Contributing
 

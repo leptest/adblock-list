@@ -4,6 +4,8 @@
 ! Homepage: https://github.com/leptest/adblock-list
 ! Expires: 4 days
 ! Syntax: ||host^ (blocks host and all subdomains). Works in Pi-hole v6, AdGuard Home, uBlock Origin, Adblock Plus.
+! Known side effects of blocking events.data.microsoft.com: Xbox Live achievements, the Visual Studio Installer
+! download, and possibly Microsoft 365 "recently used files"/cloud save. Allow the specific host if you need one.
 ! Sources: Microsoft Learn endpoint docs (Windows 11, Edge, M365, Azure Monitor), HaGeZi native.winoffice, crazy-max/WindowsSpyBlocker.
 
 ! ----- Windows diagnostic data (DiagTrack / Connected User Experiences and Telemetry) -----
