@@ -51,8 +51,6 @@ moxfield.com##.EAGT5xydjtoX4huqPqbv.zHwNSdceCL_i1SUmbRkU
 
 # Youtube
 ||ads.youtube.com^
-||redirector.googlevideo.com^
-||youtubei.googleapis.com^
 
 # Tiktok
 ||ads.tiktok.com^
